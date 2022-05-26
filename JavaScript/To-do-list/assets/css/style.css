@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    margin-top: 300px;
+}
+
+#inputWrapper {
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 3px;
+    height: 23px;
+}
+
+#submit {
+    width: 70px;
+    height: 25px;
+    border-radius: 3px;
+}
