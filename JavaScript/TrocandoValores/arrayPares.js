@@ -1,9 +1,11 @@
 let array = [];
-let quantNumeros = Number(prompt("Informe quantos números você quer em sua lista"));
+let quantNumeros = Number(prompt("Informe quantos números você quer em sua lista!"));
+let max = Number(prompt("Informe o valor máximo que irá ter na sua lista!"));
+let min = Number(prompt("Informe o valor mínimo que irá ter na sua lista"));
 
 function preencheArray(array) {
     for (let i = 0; i < quantNumeros; i++) {
-        array.push(Math.floor(Math.random() * (1000 - 0 + 1)) + 0);
+        array.push(Math.floor(Math.random() * (max - min + 1)) + min);
     }
 
     console.log(array);
