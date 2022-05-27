@@ -1,13 +1,13 @@
 let array = [];
+let quantNumeros = Number(prompt("Informe quantos números você quer em sua lista"));
 
 function preencheArray(array) {
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < quantNumeros; i++) {
         array.push(Math.floor(Math.random() * (1000 - 0 + 1)) + 0);
     }
 
     console.log(array);
 }
-
 
 function substituiPares(array) {
     if (!array) return -1;
@@ -21,7 +21,6 @@ function substituiPares(array) {
             array[i] = 0;
         }
     }
-
     return array;
 }
 
