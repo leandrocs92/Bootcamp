@@ -29,3 +29,5 @@ function substituiPares(array) {
 console.log(preencheArray(array));
 
 console.log(substituiPares(array));
+
+const helloWorld = () => "Hello World";
